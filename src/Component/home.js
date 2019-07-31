@@ -30,7 +30,7 @@ class home extends Component {
             }).catch(err => {
                 console.log(err);
             })
-
+           
     }
 
     //recovering genre of book
@@ -106,16 +106,9 @@ class home extends Component {
 
 
     select = e => {
-        this.setState({ genre: e.target.value })
-        console.log("state", this.state.genre);
+        this.setState({ [e.target.name]: e.target.value })
+
     }
-
-
-    select2 = (e) => {
-        this.setState({ gender: e.target.value })
-        console.log("state", this.state.genre);
-    }
-
 
 
     //filter book by Book​ ​ Genre and by author​ ​ gender
@@ -201,14 +194,13 @@ class home extends Component {
         }
 
     }
-
-
-
-
-
-
-
-
+// componentDidUpdate(){
+//    this.filtrer({
+//     genre: this.state.genre,
+//     gender: this.state.gender
+// })
+    
+// }
 
     render() {
         return (
@@ -230,7 +222,7 @@ class home extends Component {
                             <div class="form-group" className="col-md-6">
                                 <h3>Filter​ ​ By​ </h3>
                                 <label for="exampleFormControlSelect1">​ Book​ ​ Genre</label>
-                                <select class="form-control" id="exampleFormControlSelect1" value={this.state.genre} onChange={this.select}>
+                                <select class="form-control" name="genre" id="exampleFormControlSelect1" value={this.state.genre} onChange={this.select}>
                                     <option value="none">All</option>
                                     {this.state.genreBook.length > 0 ? this.state.genreBook.map(re => {
                                         return (
@@ -246,7 +238,7 @@ class home extends Component {
                             </div>
                             <div class="form-group" className="col-md-6">
                                 <label for="exampleFormControlSelect1"> Author​ ​ Gender</label>
-                                <select class="form-control" id="exampleFormControlSelect2" name="gender" value={this.state.gender} onChange={this.select2}>
+                                <select class="form-control" id="exampleFormControlSelect2" name="gender" value={this.state.gender} onChange={this.select}>
                                     <option value="none">All</option>
                                     <option value="man">man</option>
                                     <option value="woman">woman</option>
@@ -288,7 +280,7 @@ class home extends Component {
                         return (
                            
                                 <div >
-                                    <div className="col-md" style={{ marginTop: "10px",marginBottom:"10px" }}>
+                                    <div className="col-md-12" style={{ marginTop: "10px",marginBottom:"10px"}}>
                                     <center>
                                         <div class="card">
                                             <div class="card-body">

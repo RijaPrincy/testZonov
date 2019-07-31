@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Where the Crawdads Sing",
+    "author": {
+      "gender": "man",
+      "name": "Tara Westover"
+    },
+    "genre": "Action and adventure",
+    "date": "2017/12/18"
+  },
+  {
+    "name": "Educated: A Memoir",
+    "author": {
+      "gender": "man",
+      "name": "ERNEST HEMINGWAY"
+    },
+    "genre": "Alternate history",
+    "date": "2015/05/16"
+  },
+  {
+    "name": "Don't Burn This Book",
+    "author": {
+      "gender": "man",
+      "name": "JOAN DIDION"
+    },
+    "genre": "Crime",
+    "date": "2013/05/02"
+  },
+  {
+    "name": "The Poison Jungle",
+    "author": {
+      "gender": "man",
+      "name": "RAY BRADBURY"
+    },
+    "genre": "magazine",
+    "date": "2017/09/29"
+  },
+  {
+    "name": "Unfreedom of the Press",
+    "author": {
+      "gender": "woman",
+      "name": "GEORGE R.R. MARTIN"
+    },
+    "genre": "horror",
+    "date": "2013/08/23"
+  },
+  {
+    "name": "Dog Man",
+    "author": {
+      "gender": "woman",
+      "name": "AYN RAND"
+    },
+    "genre": "Horror",
+    "date": "2014/01/09"
+  },
+  {
+    "name": "The Wonderful Things You Will Be",
+    "author": {
+      "gender": "man",
+      "name": "GILLIAN FLYNN"
+    },
+    "genre": "Crime",
+    "date": "2014/10/31"
+  },
+  {
+    "name": "The Nickel Boys: ",
+    "author": {
+      "gender": "man",
+      "name": "VLADIMIR NABOKOV"
+    },
+    "genre": "Fairytale",
+    "date": "2019/07/26"
+  },
+
+  {
+    "name": "The Very Hungry Caterpillar",
+    "author": {
+      "gender": "man",
+      "name": "JANE AUSTEN"
+    },
+    "genre": "finance",
+    "date": "2014/04/28"
+  }
+
+
+]
