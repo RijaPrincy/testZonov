@@ -107,7 +107,7 @@ class home extends Component {
 
     select = e => {
         this.setState({ [e.target.name]: e.target.value })
-        console.log("state", e.target.value);
+
     }
 
 
@@ -194,13 +194,13 @@ class home extends Component {
         }
 
     }
-componentDidUpdate(){
-   this.filtrer({
-    genre: this.state.genre,
-    gender: this.state.gender
-})
+// componentDidUpdate(){
+//    this.filtrer({
+//     genre: this.state.genre,
+//     gender: this.state.gender
+// })
     
-}
+// }
 
     render() {
         return (
@@ -280,7 +280,7 @@ componentDidUpdate(){
                         return (
                            
                                 <div >
-                                    <div className="col-md" style={{ marginTop: "10px",marginBottom:"10px" }}>
+                                    <div className="col-md-12" style={{ marginTop: "10px",marginBottom:"10px"}}>
                                     <center>
                                         <div class="card">
                                             <div class="card-body">
